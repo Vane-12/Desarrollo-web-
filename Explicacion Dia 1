@@ -7,3 +7,92 @@ Subcarpeta o directorio
 Archivo
 
 #DNS: Significa sistema de nombres de dominio (Es como una guia telefonica de internet) Se traduce los dominios en direcciones IP, para que los ordenadores puedan entenderlo.
+
+Ecosistema front end (sirve para realizar la interfaz de la web, desde su estructura HTML hasta los estilos CSS)y back end.
+
+--HTML (es la estructura de la página web) Lenguaje de marcado de hipertexto
+Es un lenguaje de marcado que utiliza para desarrollar el esqueleto de paginas web, se basa en una serie de etiquetas (Tags) para añadir elementos como imagenes, 
+texto, formularios y mucho más.
+Jerarquia  y Semantica : Las etiquetas se presenta de forma jerarquica, es decir que unas pertenecen a otras por lo que aparecen en su interior.
+Su contenido se situa entre la apertura y cierre y ademas tienen contenido semantico SEO.
+Atributos: Estas etiquetas pueden tener tributos en su interior, lo que les da la posibilidad de ser configuradas y personalizadas. 
+
+Estructura básica
+DOCTYPE html (la version)
+HEAD (donde metemos los meta datos)
+  meta
+Viewport responsive desing adaptables a todo tipo de dispositivos
+Title (titulo de la pagina web)
+Body (donde se incluyen todos los elemetos de la pag web)
+Atributos :<class> (pueden ver haber  muchas) <ID> (solo puede haber uno)
+Escribir comentarios <!-- los comentarios -->*
+<font> para las tipografias
+<strong>
+<em> enfasis, cursivas
+<u>
+<sub>
+<sup>
+<br>
+<div vs span/> (ambos son contenedores) 
+div: ocupa toda la linea
+span: elemento inline permite añadirles atributos o espedificaciones css.
+
+Hiperenlaces: tambien llamados hipervinculos, perimten abrir tanto otra pag web o saltar a otro punto de la misma web. internos (onepage) y externos
+blank (es una pestaña nueva)
+parent(en el frame o marco que contiene al actual)
+self( en el frame actual)
+
+Enlaces Absolutos vs Relativos
+Absoluto: es toda la informacion que le tenemos que dar al navegador para que enlace acceda a la pagina deseada.
+Relativos: es la ruta que se establece de forma relativa a donde nos encontramos --index.html. Son relativos al origen.
+Para ir hacia delante /
+Para ir a la carpeta anteiror ../
+
+IMAGENES
+el comportamiendo es identico a los <a> anclas de vinculos a Urls, que hemos visto anteriormente ya sean relativas o absolutas.
+alt: descripcion de la foto "Es una fotode una montaña"
+
+Tablas <table> crea el elemento
+<tr> representa una fila
+<th> representa las celdas de datos
+<td> representa las celdas de datos
+<caption> representa un titulo descriptivo en una tabla.
+
+Formularios <Form> principales puntos de interaccion entre usuario y un sitio web o aplicacion.
+metodo de envio GET/ POST
+GET: envia los datos usando la URL (es usado para datos que no tiene trascendencia, por que los datos pueden ser visto)
+POST: No se miran los datos que envias
+
+<ul> vs <ol> se utilizan para añadir listas desordenadas <ul> u ordenadas <ol>
+
+CSS (darle diseño, colores, tipografia, etc)
+JS JavaScprit(funcionalidad)
+
+**w3school (pagina para aprender lenguajes de programacion)
+**Developermozilla
+
+<h3>👋 Estructuras basicas</h3>
+<h1>👋 Hello World!</h1>
+<h2>👋 Aprendiendo HTML con Ricardo</h2>
+
+<p>
+<font> Letras cursivas </font>
+<strong> Este coloca las letras mas gruesitas </strong>
+ <em> Estilo parecido al anterior</em>
+<u> esta realiza subrayado </u>
+<sub> letra mas pequeña y hacia abajo</sub>
+<sup> igual que el anterior coloca las letras pequeñas pero hacia arriba</sup>
+<br> provando, que hara esto, letra normal </br>
+
+</p>
+
+
+
+
+
+
+
+
+
+
+
